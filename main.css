@@ -1,0 +1,355 @@
+body{
+  
+    background-color: black;
+
+}
+
+a{
+    text-decoration: none;
+    color: red
+}
+
+
+
+ul{
+    overflow:hidden;
+    display: block;
+    text-decoration: none;
+    color:white;
+    background-color: black;
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+  
+}
+li{
+float:left
+
+}
+
+h2{
+    padding: 7px 10px;
+    float: left;
+}
+
+a:hover{
+color: black;
+background-color:white;
+padding:10px 20px;
+
+}
+
+marquee{
+    color: white;
+}
+
+marquee:hover{color: black;
+ 
+    background-color:darkred;
+
+}
+
+
+
+
+
+
+
+
+.about{
+    height: 800px; 
+    width: 800px;
+    background-color: #1c2e4a;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+
+
+
+
+.about{
+    height: 900px; 
+    width: 800px;
+    background-color: #1c2e4a;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    float: left;
+
+}
+
+.a{
+    height: 500px;
+    width: 300px;
+    float: left;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.b{color: #0ff;
+
+}
+
+h1{
+    color: white;
+}
+h1:hover{
+    color: wheat;
+}
+
+h2{
+    color: white;
+}
+h2:hover{
+    color: wheat;
+}
+
+
+h3{
+    color: white;
+}
+h3:hover{
+    color:wheat;
+}
+
+article{
+    color: white;
+}
+article:hover{
+    color:wheat;
+}
+
+.tess{height: 400px;
+    width: 400px;
+overflow-x: hidden;
+overflow-y: scroll;
+ margin: 2px;
+ float: left;
+ padding: 3px;
+}
+
+
+.tes3{height: 400px;
+    width: 400px;
+overflow-x: hidden;
+overflow-y: scroll;
+ margin: 2px;
+ float: left;
+ padding: 3px;
+}
+
+
+.tesx{height: 400px;
+    width: 400px;
+overflow-x: hidden;
+overflow-y: scroll;
+overflow-y width: 1px;
+ margin: 2px;
+ float: left;
+ padding: 3px;
+}
+
+
+.tesy{height: 400px;
+    width: 400px;
+overflow-x: hidden;
+overflow-y: scroll;
+ margin: 2px;
+ float: left;
+ padding: 3px;
+}
+
+.tc{height: 400px;
+    width: 803px;
+overflow-x: hidden;
+overflow-y: scroll;
+ margin: 2px;
+ float: left;
+ padding: 3px;
+}
+
+p{
+    color:white;
+}
+
+
+.footer{
+    height: 500px;
+    width: 1000;
+    background-color: black;
+    color: white;
+    padding: 20px;
+float: left;
+}
+
+
+*{
+margin: :0;
+padding:0;
+box-sizing: border-box;
+
+}
+
+footer{
+    background-color: black;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: white;
+}
+
+
+.footer-content{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+     font-size: 24px ;
+}
+
+.social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.social li{
+    margin: o 10px;
+}
+
+.social a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.social a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+
+
+.footer-bottom{
+    background-color: black;
+    width: 100vw;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 17px;
+    word-spacing: 1px;
+    text-transform: capitalize;
+
+}
+
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+
+
+.social i{
+
+    display: block;
+    width: 40px;
+    height:  40px;
+    padding: 5px;
+    }
+
+    i:hover{color: aqua;
+    height: 100px;
+    width: 100px;
+    }
+
+  .contact{
+
+      background-color:black;
+      height: 700opx;
+      width: 600px;
+     padding-top: 30px;
+     padding-right: 50px;
+     padding-left: 50px;
+     padding-bottom: 30px;
+    margin: auto;
+    border-radius: 0px;
+    border: 1px solid gray;
+  }
+
+.contact:hover{
+    border-bottom: 4px solid gray;
+border-right: 4px solid gray;
+    border-radius: 10px;
+}
+
+  input{
+border: 2px solid aqua;
+height: 70px;
+width:300px;
+border-radius: 55px;
+background: none;
+text-align: center;
+font-family: 'Permanent Marker', cursive ;
+font-size: larger;
+
+
+}
+
+input:hover{
+    border: 5px solid aqua;
+    height: 80px; 
+    width:320px;
+    background: rgba(0, 0, 0, 0.171);
+    font-size: small;
+}
+
+button{
+    height: 40px;
+    width: 110px;
+    border-radius: 55px;
+    background:rgba(169, 169, 169, 0.288) ;
+    border: 2px solid rgb(69, 240, 63) ;
+    font-size: x-large;
+ 
+}
+
+button:hover{
+    background:aquamarine;
+    height: 45px;
+    width: 130px;
+    border: 3px solid   rgb(69, 240, 63) ;
+  font-size: small;
+  
+}
+
+.con{
+      color:aquamarine;
+}
+
+.con:hover{
+    color:rgb(180, 230, 213) ;
+}
